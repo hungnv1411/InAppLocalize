@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67776FEB1EFAD4030078A9C2 /* LocalizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FE61EFAD4030078A9C2 /* LocalizableButton.swift */; };
+		67776FEC1EFAD4030078A9C2 /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FE71EFAD4030078A9C2 /* LocalizableLabel.swift */; };
+		67776FED1EFAD4030078A9C2 /* LocalizableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FE81EFAD4030078A9C2 /* LocalizableTextField.swift */; };
+		67776FEE1EFAD4030078A9C2 /* LocalizableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FE91EFAD4030078A9C2 /* LocalizableViewController.swift */; };
+		67776FEF1EFAD4030078A9C2 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FEA1EFAD4030078A9C2 /* LocalizationHelper.swift */; };
+		67776FFB1EFAD5B60078A9C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67776FFA1EFAD5B60078A9C2 /* Extensions.swift */; };
 		677C0D471EFACFA000323542 /* InAppLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 677C0D451EFACFA000323542 /* InAppLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67776FE61EFAD4030078A9C2 /* LocalizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableButton.swift; sourceTree = "<group>"; };
+		67776FE71EFAD4030078A9C2 /* LocalizableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
+		67776FE81EFAD4030078A9C2 /* LocalizableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableTextField.swift; sourceTree = "<group>"; };
+		67776FE91EFAD4030078A9C2 /* LocalizableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableViewController.swift; sourceTree = "<group>"; };
+		67776FEA1EFAD4030078A9C2 /* LocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
+		67776FFA1EFAD5B60078A9C2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		677C0D421EFACFA000323542 /* InAppLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InAppLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		677C0D451EFACFA000323542 /* InAppLocalize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppLocalize.h; sourceTree = "<group>"; };
 		677C0D461EFACFA000323542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +58,13 @@
 		677C0D441EFACFA000323542 /* InAppLocalize */ = {
 			isa = PBXGroup;
 			children = (
+				67776FE61EFAD4030078A9C2 /* LocalizableButton.swift */,
+				67776FE71EFAD4030078A9C2 /* LocalizableLabel.swift */,
+				67776FE81EFAD4030078A9C2 /* LocalizableTextField.swift */,
+				67776FE91EFAD4030078A9C2 /* LocalizableViewController.swift */,
+				67776FEA1EFAD4030078A9C2 /* LocalizationHelper.swift */,
 				677C0D451EFACFA000323542 /* InAppLocalize.h */,
+				67776FFA1EFAD5B60078A9C2 /* Extensions.swift */,
 				677C0D461EFACFA000323542 /* Info.plist */,
 			);
 			path = InAppLocalize;
@@ -95,6 +113,7 @@
 				TargetAttributes = {
 					677C0D411EFACFA000323542 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67776FEB1EFAD4030078A9C2 /* LocalizableButton.swift in Sources */,
+				67776FFB1EFAD5B60078A9C2 /* Extensions.swift in Sources */,
+				67776FEC1EFAD4030078A9C2 /* LocalizableLabel.swift in Sources */,
+				67776FED1EFAD4030078A9C2 /* LocalizableTextField.swift in Sources */,
+				67776FEE1EFAD4030078A9C2 /* LocalizableViewController.swift in Sources */,
+				67776FEF1EFAD4030078A9C2 /* LocalizationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +266,7 @@
 		677C0D4B1EFACFA000323542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -252,6 +278,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fotoapps.InAppLocalize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +286,7 @@
 		677C0D4C1EFACFA000323542 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -293,6 +321,7 @@
 				677C0D4C1EFACFA000323542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

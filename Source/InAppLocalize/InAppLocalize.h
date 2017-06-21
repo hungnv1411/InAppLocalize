@@ -1,9 +1,9 @@
 //
 //  InAppLocalize.h
-//  InAppLocalize
+//  fotoapps
 //
-//  Created by Nguyen Hung on 6/21/17.
-//  Copyright © 2017 Nguyen Hung. All rights reserved.
+//  Created by Nguyen Hung on 06/21/17.
+//  Copyright © 2017 FotoApps. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
