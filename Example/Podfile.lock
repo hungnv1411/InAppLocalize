@@ -1,0 +1,16 @@
+PODS:
+  - InAppLocalize (0.1.0)
+
+DEPENDENCIES:
+  - InAppLocalize (from `../`)
+
+EXTERNAL SOURCES:
+  InAppLocalize:
+    :path: ../
+
+SPEC CHECKSUMS:
+  InAppLocalize: d1a3ab411fa8cd407b55ac2f0f38c756f0accff3
+
+PODFILE CHECKSUM: ec711f600eb7b0ae5387e5332577037585f84415
+
+COCOAPODS: 1.2.1

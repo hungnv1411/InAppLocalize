@@ -1,0 +1,6 @@
+framework module InAppLocalize {
+  umbrella header "InAppLocalize-umbrella.h"
+
+  export *
+  module * { export * }
+}

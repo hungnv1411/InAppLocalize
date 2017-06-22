@@ -1,0 +1,22 @@
+{
+  "name": "InAppLocalize",
+  "version": "0.1.0",
+  "summary": "A short description of InAppLocalize.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vanhungframgia/InAppLocalize",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vanhungframgia": "nguyen.van.hung@framgia.com"
+  },
+  "source": {
+    "git": "https://github.com/vanhungframgia/InAppLocalize.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InAppLocalize/Classes/**/*"
+}
