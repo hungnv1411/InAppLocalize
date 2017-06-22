@@ -14,7 +14,9 @@ InAppLocalize is a simple framework that improves localization in Swift iOS apps
 
 Install
 ```
-pod 'InAppLocalize'
+use_frameworks!
+
+pod 'InAppLocalize', git: 'https://github.com/fotoapps/InAppLocalize.git'
 ```
 
 To add supported languages
@@ -25,4 +27,10 @@ LocalizationHelper.shared.addSupportedLanguage(["en", "fr"])
 To set current language
 ```swift
 LocalizationHelper.shared.setCurrentLanguage("en")
+```
+
+To update localize
+```swift
+let viewController = ...
+viewController.onUpdateLocalize()
 ```
